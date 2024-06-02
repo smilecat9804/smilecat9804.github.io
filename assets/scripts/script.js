@@ -251,13 +251,13 @@ resetBtn.onclick = () => {
 
 const randomBtn = document.getElementById('random-btn');
 randomBtn.onclick = () => {
-    selectParts('body', randRange(1,9));
-    selectParts('hat', randRange(0,7));
-    selectParts('head2', randRange(0,2));
-    selectParts('acc', randRange(0,2));
-    selectParts('acc2', randRange(0,3));
-    selectParts('effect', randRange(0,5));
-    selectParts('bg', randRange(1,8));
+    selectParts('body', randRange(1,10));
+    selectParts('hat', randRange(0,8));
+    selectParts('head2', randRange(0,3));
+    selectParts('acc', randRange(0,3));
+    selectParts('acc2', randRange(0,4));
+    selectParts('effect', randRange(0,6));
+    selectParts('bg', randRange(1,9));
 }
 
 const downloadBtn = document.getElementById('download-btn');
