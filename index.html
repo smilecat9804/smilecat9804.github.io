@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>SMILECAT MEME MAKER</title>
+        <link rel="stylesheet" href="assets/style/global.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo-text">SmileCat</div>
+        </div>
+        <h1>SMILECAT MEME MAKER</h1>
+        <div class="main-view-wrap">
+            <div class="main-view">
+                <div class="left-view">
+                    <canvas id="mainCanvas"></canvas>
+                    <div class="light-button" id="reset-btn">
+                        <img src="assets/img/refresh.png">
+                        RESET CAT
+                    </div>
+                    <div class="light-button" id="random-btn">
+                        <img src="assets/img/dice.png">
+                        RANDOM GENERATE
+                    </div>
+                    <div class="dark-button" id="download-btn">
+                        <img src="assets/img/download.png">
+                        DOWNLOAD
+                    </div>
+                    <div class="sns">
+                        <a href="https://t.me/smile_cat_sol">
+                            <img src="assets/img/telegram.png">
+                        </a>
+                        <a href="https://x.com/smile_cat_sol">
+                            <img src="assets/img/twitter.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="border-bar"></div>
+                <div class="right-view">
+                    <div class="header">Make Your Own SmileCat!</div>
+                    
+                    <div class="section">
+                        <div class="section-header">CAT</div>
+                        <div class="selector">
+                            <div class="dir-button" id="body-left">◀</div>
+                            <div class="parts-wrap">
+                                <div class="parts-list" id="body-list">
+                                </div>
+                            </div>
+                            <div class="dir-button" id="body-right">▶</div>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <div class="section-header">HEAD</div>
+                        <div class="selector">
+                            <div class="dir-button" id="hat-left">◀</div>
+                            <div class="parts-wrap">
+                                <div class="parts-list" id="hat-list">
+                                </div>
+                            </div>
+                            <div class="dir-button" id="hat-right">▶</div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section-header">HEAD2</div>
+                        <div class="selector">
+                            <div class="parts-list" id="head2-list">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <div class="section-header">ACCESSORY</div>
+                        <div class="selector">
+                            <div class="parts-list" id="acc-list">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section-header">ACCESSORY2</div>
+                        <div class="selector">
+                            <div class="parts-list" id="acc2-list">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <div class="section-header">EFFECT</div>
+                        <div class="selector">
+                            <div class="parts-list" id="effect-list">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <div class="section-header">BACKGROUND</div>
+                        <div class="selector">
+                            <div class="parts-list" id="bg-list">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/scripts/script.js"></script>
+    </body>
+</html>
