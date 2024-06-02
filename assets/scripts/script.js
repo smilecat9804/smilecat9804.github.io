@@ -275,7 +275,7 @@ bodyLeftBtn.onclick = () => {
 
 const bodyRightBtn = document.getElementById('body-right');
 bodyRightBtn.onclick = () => {
-    bodyList.style.transform = 'translateX(-130px)';
+    bodyList.style.transform = 'translateX(-150px)';
 }
 
 const hatLeftBtn = document.getElementById('hat-left');
