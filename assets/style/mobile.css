@@ -80,10 +80,6 @@ h1 {
     cursor: pointer;
 }
 
-.light-button:hover {
-    transform: scale(1.05);
-}
-
 .dark-button {
     width: 100%;
     height: 60px;
@@ -99,10 +95,6 @@ h1 {
     gap:10px;
     transition: 0.3s;
     cursor: pointer;
-}
-
-.dark-button:hover {
-    transform: scale(1.05);
 }
 
 .main-view .border-bar {
@@ -161,13 +153,9 @@ h1 {
     width:40px;
     transition: 0.3s;
     overflow: visible;
-    transform: scale(0.9);
+    transform: scale(1);
     cursor: pointer;
 }
-.dir-button:hover {
-    transform: scale(1.0);
-}
-
 .parts-wrap {
     overflow: hidden;
     width:100%;
@@ -192,12 +180,7 @@ h1 {
     cursor: pointer;
     transition: 0.3s;
     overflow: visible;
-    transform: scale(0.9);
     background-color: rgb(235, 200, 155);
-}
-
-.parts:hover {
-    transform: scale(0.95);
 }
 
 .parts-selected {
@@ -221,12 +204,7 @@ h1 {
     box-shadow: 3px 3px 7px 7px rgba(0,0,0,0.4);
     border-radius: 32px;
     transition: 0.3s;
-    transform: scale(0.9);
     cursor:pointer;
-}
-
-.sns a img:hover{
-    transform: scale(1.0);
 }
 
 #hat-left, #hat-right {
