@@ -276,6 +276,10 @@ bodyLeftBtn.onclick = () => {
 const bodyRightBtn = document.getElementById('body-right');
 bodyRightBtn.onclick = () => {
     bodyList.style.transform = 'translateX(-150px)';
+
+    if(window.screen.width > 1024) {
+        bodyList.style.transform = 'translateX(-250px)';
+    }
 }
 
 const hatLeftBtn = document.getElementById('hat-left');
@@ -285,5 +289,6 @@ hatLeftBtn.onclick = () => {
 
 const hatRightBtn = document.getElementById('hat-right');
 hatRightBtn.onclick = () => {
-    hatList.style.transform = 'translateX(-50px)';
+    hatList.style.transform = 'translateX(-180px)';
+    
 }
